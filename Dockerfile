@@ -21,4 +21,5 @@ RUN pear install nrk/Predis
 
 ADD guestbook.php /var/www/html/guestbook.php
 ADD controllers.js /var/www/html/controllers.js
+ADD angular.min.js /var/www/html/angular.min.js
 ADD index.html /var/www/html/index.html
